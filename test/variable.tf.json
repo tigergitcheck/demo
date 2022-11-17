@@ -1,6 +1,6 @@
 {
     "variable": {
-        "example": {},
-        "gcp": {}
+        "example": {"asd": "der"},
+        "gcp": {"bcd": "def"}
     }
 }
