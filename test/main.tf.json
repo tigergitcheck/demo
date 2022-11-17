@@ -12,9 +12,9 @@
                 "ers": {
                     "name": "${var.example}",
                     "image_location": "${var.gcp}",
-                    "kernel_id": "ss",
-                    "device_name": "ss",
-                    "virtual_name": "ss"
+                    "kernel_id": "bsc",
+                    "device_name": "bsa",
+                    "virtual_name": "bcd"
                 }
             }
         }
