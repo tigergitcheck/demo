@@ -1,0 +1,29 @@
+[
+    {
+        "provider": {
+            "aws": {
+                "region": "ap-south-1"
+            }
+        }
+    },
+    {
+        "resource": {
+            "aws_ami": {
+                "ers": {
+                    "name": "${var.example}",
+                    "image_location": "${var.gcp}",
+                    "kernel_id": "bsc",
+                    "device_name": "bsa",
+                    "virtual_name": "bcd"
+                }
+            }
+        }
+    },
+    {
+        "output": {
+            "ers": {
+                "value": "[${aws_ami.ers.arn},${aws_ami.ers.owner_id}]"
+            }
+        }
+    }
+]
